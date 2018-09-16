@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "XMLHttpRequest";
+
+}
+
+<input type="number" placeholder="ID" id="idGame" class="form-control" min="1" />
+<br />
+<button class="btn btn-primary" onclick="getGame()" id="btnGatAll"> Get ALL</button>
+<button class="btn btn-primary" onclick="getGameID()" id="btnGatID"> Get with id</button>
+
+<br />
+<hr />
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        API
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="~/Page/Delet">Delet</a>
+        <a class="dropdown-item" href="~/Page/post">POST</a>
+        <a class="dropdown-item" href="~/Page/put">PUT</a>
+        <a class="dropdown-item" href="~/Page/GET">get</a>
+    </div>
+
+</div>
+
+<br />
+<br />
+<hr />
+
+
+
+
+<div class="container">
+
+    <table class="table table-hover" id="Get">
+       
+            <tr>
+                <th>ID</th>
+                <th>Game Name</th>
+                <th>Player one</th>
+                <th>player two</th>
+                <th>how ww</th>
+            </tr>
+ 
+
+    </table>
+</div>
+<a href="~/Page/GET" class="btn btn-primary" role="button">Back to Home Page XMLHttpRequest</a>
+

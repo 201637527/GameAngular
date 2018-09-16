@@ -1,0 +1,41 @@
+
+<div  *ngIf="putData != null; else nofund">
+<div class="card"  >
+        <h1 *ngIf="massege != null">{{massege}}</h1>
+    <div class="card-header">
+      <label> ID</label>
+      <input type="text" class="form-control" [readOnly]="true" [value]="putData.ID">
+    </div>
+  
+  <div class="card-header">
+    <label>NAME</label>
+        <input type="text" class="form-control" id="name"  [(ngModel)]="putData.Game_Name">
+    
+  </div>
+  <div class="card-header">
+      <label>Player one</label>
+          <input type="text" class="form-control" [(ngModel)]="putData.Player_one">
+      
+    </div>
+    <div class="card-header">
+        <label>Player two</label>
+            <input type="text" class="form-control"[(ngModel)]="putData.Player_two">
+        
+      </div>
+      <div class="card-header">
+          <label>who won?</label>
+              <input type="text"  class="form-control" [(ngModel)]="putData.who_won">
+        </div>
+      
+        <button  class="btn btn-warning" (click)="onUpdata(putData)">UPDATA </button>
+        <button class="btn btn-primary" (click)="onDelet(putData.ID)">DELET</button>
+        <button class="btn btn-secondary"(click)="onNew()"> Create New Game</button>
+       
+
+</div>
+
+</div>
+<ng-template #nofund>
+<h1>Pleas click to select</h1>
+</ng-template>
+

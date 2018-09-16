@@ -1,0 +1,30 @@
+
+
+
+    <div class="card col-5"  >
+      
+      <div class="card-header">
+        <label>NAME</label>
+            <input type="text" class="form-control" id="name" [(ngModel)]="gameNew.Game_Name" placeholder="Name Game">
+        
+      </div>
+      <div class="card-header">
+          <label>Player one</label>
+              <input type="text" class="form-control" [(ngModel)]="gameNew.Player_one" placeholder="Player one">
+          
+        </div>
+        <div class="card-header">
+            <label>Player two</label>
+                <input type="text" class="form-control" [(ngModel)]="gameNew.Player_two" placeholder="Player two">
+            
+          </div>
+          <div class="card-header">
+              <label>who won?</label>
+                  <input type="text"  class="form-control" [(ngModel)]="gameNew. who_won" placeholder="Who ww?">
+            </div>
+          
+           <button class="btn btn-warning" (click)="onSave()" >Save</button>
+    
+    </div>
+    
+  

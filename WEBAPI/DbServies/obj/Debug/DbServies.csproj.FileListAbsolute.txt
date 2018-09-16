@@ -1,0 +1,10 @@
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\DbServies.dll.config
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\DbServies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\DbServies.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\obj\Debug\DbServies.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\obj\Debug\DbServies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\למחוק ניסוי\APItest\DbServies\obj\Debug\DbServies.pdb

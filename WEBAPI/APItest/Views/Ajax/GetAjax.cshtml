@@ -1,0 +1,47 @@
+﻿<input type="number" placeholder="ID" id="idGame" class="form-control" min="1" />
+<br />
+<button class="btn btn-warning" id="btnGetAll"> Get ALL</button>
+<button class="btn btn-warning"  id="btnGetID"> Get with id</button>
+
+<br />
+<hr />
+
+<div class="dropdown">
+    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+        API
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="~/Ajax/DeletAjax">Delet</a>
+        <a class="dropdown-item" href="~/Ajax/PostAjax">POST</a>
+        <a class="dropdown-item" href="~/Ajax/PutAjax">PUT</a>
+        <a class="dropdown-item" href="~/Ajax/GetAjax">get</a>
+    </div>
+
+</div>
+
+<br />
+<br />
+<hr />
+
+
+
+
+
+<div class="container">
+
+    <table class="table table-hover" id="Get">
+
+        <tr>
+            <th>ID</th>
+            <th>Game Name</th>
+            <th>Player one</th>
+            <th>player two</th>
+            <th>how ww</th>
+        </tr>
+
+
+    </table>
+</div>
+<a href="~/Ajax/GetAjax" class="btn btn-warning" role="button">Back to Home Page ajax</a>
+
+       

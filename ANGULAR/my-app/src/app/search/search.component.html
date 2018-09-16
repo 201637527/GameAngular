@@ -1,0 +1,71 @@
+
+
+
+<div class="row container">
+
+
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" 
+        type="number" placeholder="Search ID" 
+        [(ngModel)]="seachValID" (focus)="onFocs()"  name="seachValID">
+        
+      </form>
+ <form class="form-inline">
+    <input class="form-control mr-sm-2" 
+    type="text" placeholder="Search Game Name" 
+    [(ngModel)]="searchValue" (focus)="onFocs()" name="seachVal" >
+    
+  </form>
+
+  
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" 
+    type="text" placeholder="Search player one" 
+    [(ngModel)]="seachValPlay1" (focus)="onFocs()" name="seachValPlay1">
+    
+  </form>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" 
+    type="text" placeholder="Search player two" 
+    [(ngModel)]="seachValPlay2" (focus)="onFocs()" name="seachValPlay2">
+    
+  </form>
+  <form class="form-inline">
+     <input class="form-control mr-sm-2" 
+    type="text" placeholder="Search how ww" 
+    [(ngModel)]="seachValWhoWW" (focus)="onFocs()" name="seachValWhoWW">
+    
+  </form>
+
+  
+  <br>
+  <br>
+  <hr>
+
+
+  <table class="table ">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Game Name</th>
+        <th scope="col">Player one</th>
+        <th scope="col">Player two</th>
+        <th scope="col">who won</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of gameArr |PipeFilter :searchValue| PipeFilterId: seachValID
+      |PipeFilterPlay1:seachValPlay1
+      |PipeFilterPlayer2:seachValPlay2
+      |PipeFilterWhoWW:seachValWhoWW"> 
+        <th scope="row">{{game.ID}}</th>
+        <td>{{game.Game_Name}}</td>
+        <td>{{game.Player_one}}</td>
+        <td>{{game.Player_two}}</td>
+        <td>{{game.who_won}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  

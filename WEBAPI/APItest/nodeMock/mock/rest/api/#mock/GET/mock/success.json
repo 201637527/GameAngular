@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nameGame": "fier",
+        "p1": "moshe",
+        "p2": "David",
+        "who_ww": "David"
+    },
+    {
+         "id": 1,
+        "nameGame": "bold",
+        "p1": "Gili",
+        "p2": "Shalom",
+        "who_ww": "Shalom"
+
+    }
+]

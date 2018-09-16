@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "PutAjax";
+}
+
+<h2>PutAjax</h2>
+
+<input type="number" placeholder="id" min="1" id="idGame" />
+
+
+<input type="text" placeholder="Game Name" id="txtGameName" />
+<input type="text" placeholder="player one" id="txtPlayer1" />
+<input type="text" placeholder="player two" id="txtPlayer2" />
+<input type="text" placeholder="who ww?" id="txtwhoWW" />
+
+<button class="btn btn-warning" id="btnGet">Get</button>
+<button class="btn btn-warning" id="btnPUT">PUT</button>
+
+
+
+<div class="container">
+
+    <table class="table table-hover" id="Get">
+
+        <tr>
+            <th>ID</th>
+            <th>Game Name</th>
+            <th>Player one</th>
+            <th>player two</th>
+            <th>how ww</th>
+        </tr>
+
+
+    </table>
+</div>
+<a href="~/Ajax/GetAjax" class="btn btn-warning" role="button">Back to Home Page AJAX</a>

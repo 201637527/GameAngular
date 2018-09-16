@@ -1,0 +1,32 @@
+
+<button class="btn btn-danger"(click)="onrRef()">Refresh</button>
+<button class="btn btn-secondary"(click)="onNew()"> Create New Game</button>
+<div class="row container">
+
+<table class="table table-hover col-7" *ngIf="arrgame !=null">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Game Name</th>
+      <th scope="col">Player one</th>
+      <th scope="col">Player two</th>
+      <th scope="col">who won</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+    <tr *ngFor="let game of arrgame ;" (click)="onClick(game)"> 
+      <th scope="row" [ngClass]="{'red':datag===game}" >{{game.ID}}</th>
+      <td [ngClass]="{'red':datag===game}" >{{game.Game_Name}}</td>
+      <td [ngClass]="{'red':datag===game}" >{{game.Player_one}}</td>
+      <td [ngClass]="{'red':datag===game}" >{{game.Player_two}}</td>
+      <td [ngClass]="{'red':datag===game}" >{{game.who_won}}</td>
+    </tr>
+  </tbody>
+</table>
+<app-edit class="col-5" [putData]="datag"></app-edit>
+
+
+</div>
+
+

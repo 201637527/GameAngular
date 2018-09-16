@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Test</title>
+    
+
+    @Styles.Render("~/Content/bootstrap.min.css")
+    
+    @Scripts.Render("~/bundles/modernizr")
+   
+   @Scripts.Render("~/Scripts/Rx.js")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/bootstrap.min.css")
+
+   
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand " href="~/Page/get">XMLHttpRequest</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+ 
+                   
+                    <a class="nav-item nav-link active" href="~/Ajax/GetAjax">AJAX<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/Help">API<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/swagger/ui/index">Swagger<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/Observable/GetObservable">observable<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/Mock/MockGet">Mock with promise<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/Mock/MockGetNode">Mock with node js<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/Mock/GetNodeAPI">node API<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="~/ImagePostman/index">Postmen<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+ 
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year </p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+    @Scripts.Render("~/ScriptsSelf/JSApi.js")
+    @Scripts.Render("~/ScriptsSelf/RXObservable.js")
+    @Scripts.Render("~/ScriptsSelf/Ajax.js")
+    @Scripts.Render("~/ScriptsSelf/Mock.js")
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

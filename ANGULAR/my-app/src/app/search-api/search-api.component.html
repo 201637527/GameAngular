@@ -1,0 +1,52 @@
+
+<input placeholder=" search" class="form-control col-3" [(ngModel)]="searchInput" (input)="onInput(searchInput)">
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" value="id" [(ngModel)]="str" name="optradio">ID
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio"  value="gameName" [(ngModel)]="str">Game Name
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" value="playerOne" [(ngModel)]="str" >Player One
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" value="playerTwo" [(ngModel)]="str" >Player Two
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" value="who_won" [(ngModel)]="str" >Who WW?
+  </label>
+</div>
+<div class="row container">
+
+  <table class="table table-hover col-7" *ngIf="arrGame !=null">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Game Name</th>
+        <th scope="col">Player one</th>
+        <th scope="col">Player two</th>
+        <th scope="col">who won</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      <tr *ngFor="let game of arrGame ;"> 
+        <th scope="row">{{game.ID}}</th>
+        <td>{{game.Game_Name}}</td>
+        <td>{{game.Player_one}}</td>
+        <td>{{game.Player_two}}</td>
+        <td>{{game.who_won}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </div>
