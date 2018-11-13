@@ -1,0 +1,13 @@
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.exe.config
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.Properties.Resources.resources
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csproj.GenerateResource.Cache
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.exe
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.pdb
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.dll
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.xml
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.exe
+c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.pdb
+C:\Users\User1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.FrmSkillsdata.resources
