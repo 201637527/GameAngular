@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMovies", "WebMovies\WebMovies.csproj", "{B43B7253-1C06-4869-A770-350A189D01E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMovies", "WebMovies.csproj", "{B43B7253-1C06-4869-A770-350A189D01E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {757981E3-8259-4E88-8FA4-06C3116F6AA3}
 	EndGlobalSection
 EndGlobal

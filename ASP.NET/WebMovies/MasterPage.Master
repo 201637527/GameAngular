@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" CodeBehind="MasterPage.master.cs" Inherits="WebMovies.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>the Best Movies </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    
+    <link href="CSS/StyleSheetCSS.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+
+
+
+
+        <div dir="ltr">
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item ">
+
+                    
+                    <asp:HyperLink  CssClass="nav-link  " ID="linkHome" ClientIDMode="Static" NavigateUrl="Pages/HomePage.aspx" runat="server">Home Page</asp:HyperLink>
+                </li>
+                <li class="nav-item">
+
+                    <asp:HyperLink CssClass="nav-link" ID="linkList" ClientIDMode="Static" NavigateUrl="Pages/ListMovies.aspx" runat="server">List Movies</asp:HyperLink>
+                </li>
+                <li class="nav-item">
+
+                    <asp:HyperLink CssClass="nav-link" ID="linkLogin" ClientIDMode="Static" NavigateUrl="Pages/Login.aspx" runat="server"> Login</asp:HyperLink>
+                </li>
+                <li class="nav-item">
+
+                    <asp:HyperLink CssClass="nav-link"  ID="LinkRegister" ClientIDMode="Static" NavigateUrl="Pages/Register.aspx" runat="server">Register </asp:HyperLink>
+                </li>
+                <li class="nav-item">
+
+                    <asp:HyperLink CssClass="nav-link" ID="linkLoginMaster"  ClientIDMode="Static"  NavigateUrl="Pages/LoginAmin.aspx" runat="server"> Login Manger </asp:HyperLink>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <div>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="../Scripts/LoginS.js"></script>
+    <script src="../Scripts/buy.js"></script>
+
+    <script src="../Scripts/RegisterCustomer.js"></script>
+
+</body>
+
+</html>

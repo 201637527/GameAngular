@@ -11,3 +11,18 @@ c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\
 c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.exe
 c:\users\user1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.pdb
 C:\Users\User1\documents\visual studio 2013\Projects\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.FrmSkillsdata.resources
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.exe.config
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.exe
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\WorkersmanagementSeeSkills.pdb
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.FrmSkillsdata.resources
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.Properties.Resources.resources
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.csproj.CopyComplete
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.exe
+C:\Users\Dell\Desktop\שונות\myallProject\WF\WorkersmanagementSeeSkills\WorkersmanagementSeeSkills\obj\Debug\WorkersmanagementSeeSkills.pdb

@@ -1,0 +1,29 @@
+﻿body {
+    
+    text-align:right;
+
+}
+
+
+
+
+.straRating {
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+    background-repeat:no-repeat;
+    display:block;
+}
+
+.witingStar {
+    background-image: url('../Image/emptyStar (1).png');
+}
+
+.EmptyStar {
+    background-image: url('../Image/emptyStar (1).png');
+}
+
+.filldStar {
+    background-image: url('../Image/fuulStar.png');
+}
+

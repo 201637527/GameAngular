@@ -1,0 +1,17 @@
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\WebMovies.dll.config
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\WebMovies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\WebMovies.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\obj\Debug\WebMovies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\obj\Debug\WebMovies.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\obj\Debug\WebMovies.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\EntityFramework.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\EntityFramework.xml
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\פרויקט ASP\WebMovies\WebMovies\bin\AjaxControlToolkit.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\bin\WebMovies.dll.config
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\bin\WebMovies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\bin\WebMovies.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\obj\Debug\WebMovies.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\obj\Debug\WebMovies.dll
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\WebApplication2\WebMovies\obj\Debug\WebMovies.pdb
